@@ -37,7 +37,7 @@ public class shop_kazanami {
     public static void registerRecipes(RegistryEvent.Register<IRecipe> event) {
         if (Loader.isModLoaded("tf2")) {
             try {
-                tf_chip = Item.getByNameOrId("tf2:developchip_0");
+                tf_chip = Item.getByNameOrId("tf2:developchip_2");
                 rei_metal = Item.getByNameOrId("tf2:reimetalingot");
                 event.getRegistry().registerAll(
                         new ShapelessOreRecipe(new ResourceLocation(Reference.MOD_ID, "reimetal_to_tf_chip"),
